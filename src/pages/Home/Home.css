@@ -1,0 +1,45 @@
+.home{
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+.hero{
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.hero h1{
+    font-size: max(4vw,36px);
+    color: #e3e3e3;
+    line-height: 1.5;
+}
+.hero form{
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.hero input{
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.hero button{
+    display: flex;
+    border: none;
+    background: purple;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
